@@ -2,4 +2,58 @@
   margin: 0 auto;
 }
 
-/*Put your code here*/
+header {
+  background-color: black;
+  padding: 5px;
+  padding-bottom: 20px;
+  height: 16pt;
+}
+
+header a {
+ color: white;
+ text-decoration: none;
+}
+
+header span {
+  font-size: 20pt;
+  font-weight: bold;
+  display: inline;
+  float: left;
+  margin-left: 20pt;
+}
+
+header nav {
+  display: inline;
+  margin-right: 20pt;
+  float: right;
+  padding: 0;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 6pt 0 0 0;
+}
+
+header ul li {
+  display: inline;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-bottom: 12pt;
+}
+
+h1, section:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+h1, section, footer {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+section h2 {
+
+}
